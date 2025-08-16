@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ATM - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>💳 Welcome to My ATM</h1>
+    <p>Please enter your PIN:</p>
+    <input type="password" id="pinInput" placeholder="Enter PIN">
+    <button onclick="login()">Login</button>
+
+    <div id="menu" style="display:none;">
+      <h2>Select Transaction</h2>
+      <a href="withdraw.html">Withdraw</a>
+      <a href="deposit.html">Deposit</a>
+      <a href="balance.html">Balance Enquiry</a>
+    </div>
+  </div>
+</body>
+</html>
